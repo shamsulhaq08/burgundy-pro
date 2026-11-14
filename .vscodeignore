@@ -1,0 +1,8 @@
+.vscode/**
+scripts/**
+test-samples/**
+.git/**
+.gitignore
+*.log
+visual-studio-ide/**
+*.vsix

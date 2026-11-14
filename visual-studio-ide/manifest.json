@@ -1,0 +1,25 @@
+{
+  "id": "BurgundyProTheme.shamsulhaq08",
+  "version": "1.0.0",
+  "type": "Vsix",
+  "vsixId": "BurgundyProTheme.shamsulhaq08",
+  "extensionDir": "[installdir]\\Common7\\IDE\\Extensions\\shamsulhaq08\\BurgundyPro",
+  "files": [
+    { "fileName": "/extension.vsixmanifest", "sha256": null },
+    { "fileName": "/BurgundyPro.pkgdef", "sha256": null },
+    { "fileName": "/Themes/BurgundyPro.vstheme", "sha256": null },
+    { "fileName": "/Themes/BurgundySoft.vstheme", "sha256": null },
+    { "fileName": "/images/icon.png", "sha256": null },
+    { "fileName": "/images/preview-burgundy-pro.png", "sha256": null },
+    { "fileName": "/images/preview-burgundy-soft.png", "sha256": null },
+    { "fileName": "/images/color-palette.png", "sha256": null },
+    { "fileName": "/README.md", "sha256": null },
+    { "fileName": "/LICENSE.txt", "sha256": null }
+  ],
+  "installSizes": {
+    "targetDrive": 220000
+  },
+  "dependencies": {
+    "Microsoft.VisualStudio.Component.CoreEditor": "[17.0,18.0)"
+  }
+}

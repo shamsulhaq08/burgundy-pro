@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
+  <Metadata>
+    <Identity Id="BurgundyProTheme.shamsulhaq08" Version="1.0.0" Language="en-US" Publisher="Shams Dev" />
+    <DisplayName>Burgundy Pro</DisplayName>
+    <Description xml:space="preserve">A premium, modern dark Burgundy theme for Visual Studio 2022. Crafted with deep burgundy identity, wine-red accents, and soft rose syntax highlighting.</Description>
+    <MoreInfo>https://github.com/shamsulhaq08/burgundy-pro</MoreInfo>
+    <License>LICENSE.txt</License>
+    <Icon>images/icon.png</Icon>
+    <PreviewImage>images/preview-burgundy-pro.png</PreviewImage>
+    <Tags>theme, themes, Visual Studio 2022, dark theme, burgundy, color, colors</Tags>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
+      <ProductArchitecture>amd64</ProductArchitecture>
+    </InstallationTarget>
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[17.0, 18.0)">
+      <ProductArchitecture>amd64</ProductArchitecture>
+    </InstallationTarget>
+    <InstallationTarget Id="Microsoft.VisualStudio.Enterprise" Version="[17.0, 18.0)">
+      <ProductArchitecture>amd64</ProductArchitecture>
+    </InstallationTarget>
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" Version="[4.5,)" />
+  </Dependencies>
+  <Prerequisites>
+    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[17.0, 18.0)" DisplayName="Visual Studio core editor" />
+  </Prerequisites>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.VsPackage" Path="BurgundyPro.pkgdef" />
+    <Asset Type="Microsoft.VisualStudio.Theme" Path="Themes/BurgundyPro.vstheme" />
+    <Asset Type="Microsoft.VisualStudio.Theme" Path="Themes/BurgundySoft.vstheme" />
+  </Assets>
+</PackageManifest>

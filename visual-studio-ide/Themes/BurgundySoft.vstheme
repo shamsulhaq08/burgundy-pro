@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Themes>
+  <Theme Name="Burgundy Soft" GUID="{4C20DF4E-B5F7-4DC1-BC95-6B586C91A012}">
+    <!-- Environment / Shell Window Colors -->
+    <Category Name="Environment" GUID="{624ED9C3-BDFD-41FA-96C3-7C824EA32E3D}">
+      <Color Name="EnvironmentBackground">
+        <Background Type="CT_RAW" Source="FF1A1216" />
+      </Color>
+      <Color Name="MainWindowActiveCaption">
+        <Background Type="CT_RAW" Source="FF251920" />
+        <Foreground Type="CT_RAW" Source="FFE4DAE0" />
+      </Color>
+      <Color Name="MainWindowInactiveCaption">
+        <Background Type="CT_RAW" Source="FF1A1216" />
+        <Foreground Type="CT_RAW" Source="FFB09AA3" />
+      </Color>
+      <Color Name="CommandBarBackground">
+        <Background Type="CT_RAW" Source="FF251920" />
+        <Foreground Type="CT_RAW" Source="FFE4DAE0" />
+      </Color>
+      <Color Name="CommandBarBorder">
+        <Background Type="CT_RAW" Source="FF3D2833" />
+      </Color>
+      <Color Name="CommandBarMouseOver">
+        <Background Type="CT_RAW" Source="FF321A25" />
+      </Color>
+      <Color Name="CommandBarSelected">
+        <Background Type="CT_RAW" Source="FF482434" />
+      </Color>
+      <Color Name="ToolWindowBackground">
+        <Background Type="CT_RAW" Source="FF21161D" />
+      </Color>
+      <Color Name="ToolWindowBorder">
+        <Background Type="CT_RAW" Source="FF3D2833" />
+      </Color>
+      <Color Name="ToolWindowTabSelectedBackground">
+        <Background Type="CT_RAW" Source="FF2F1E27" />
+        <Foreground Type="CT_RAW" Source="FFFFFFFF" />
+      </Color>
+      <Color Name="ToolWindowTabSelectedBorder">
+        <Background Type="CT_RAW" Source="FFB0476C" />
+      </Color>
+      <Color Name="StatusBarBackground">
+        <Background Type="CT_RAW" Source="FF5E273A" />
+        <Foreground Type="CT_RAW" Source="FFFFFFFF" />
+      </Color>
+      <Color Name="FileTabChannelBackground">
+        <Background Type="CT_RAW" Source="FF251920" />
+      </Color>
+      <Color Name="FileTabSelectedBackground">
+        <Background Type="CT_RAW" Source="FF2F1E27" />
+        <Foreground Type="CT_RAW" Source="FFFFFFFF" />
+      </Color>
+      <Color Name="FileTabSelectedBorder">
+        <Background Type="CT_RAW" Source="FFB0476C" />
+      </Color>
+      <Color Name="FileTabInactiveBackground">
+        <Background Type="CT_RAW" Source="FF21161D" />
+        <Foreground Type="CT_RAW" Source="FFB09AA3" />
+      </Color>
+      <Color Name="ScrollBarBackground">
+        <Background Type="CT_RAW" Source="FF190E13" />
+      </Color>
+      <Color Name="ScrollBarThumbBackground">
+        <Background Type="CT_RAW" Source="FF583044" />
+      </Color>
+      <Color Name="TreeBackground">
+        <Background Type="CT_RAW" Source="FF21161D" />
+      </Color>
+      <Color Name="TreeSelectedBackground">
+        <Background Type="CT_RAW" Source="FF482434" />
+        <Foreground Type="CT_RAW" Source="FFFFFFFF" />
+      </Color>
+      <Color Name="NotificationBadgeBackground">
+        <Background Type="CT_RAW" Source="FF8A2D4F" />
+        <Foreground Type="CT_RAW" Source="FFFFFFFF" />
+      </Color>
+    </Category>
+
+    <!-- Text Editor Core Elements -->
+    <Category Name="Text Editor" GUID="{75A88B63-04E1-46E3-A7B0-27A73457C014}">
+      <Color Name="Plain Text">
+        <Background Type="CT_RAW" Source="FF1A1216" />
+        <Foreground Type="CT_RAW" Source="FFE4DAE0" />
+      </Color>
+      <Color Name="Selected Text">
+        <Background Type="CT_RAW" Source="FF523040" />
+        <Foreground Type="CT_RAW" Source="FFFFFFFF" />
+      </Color>
+      <Color Name="Inactive Selected Text">
+        <Background Type="CT_RAW" Source="FF432532" />
+        <Foreground Type="CT_RAW" Source="FFE4DAE0" />
+      </Color>
+      <Color Name="Line Numbers">
+        <Background Type="CT_RAW" Source="FF1A1216" />
+        <Foreground Type="CT_RAW" Source="FF6E5562" />
+      </Color>
+      <Color Name="Indicator Margin">
+        <Background Type="CT_RAW" Source="FF1A1216" />
+      </Color>
+      <Color Name="Visible White Space">
+        <Foreground Type="CT_RAW" Source="FF3E2430" />
+      </Color>
+      <Color Name="Brace Matching">
+        <Background Type="CT_RAW" Source="FF583044" />
+        <Foreground Type="CT_RAW" Source="FFB0476C" />
+      </Color>
+      <Color Name="Current Line Active">
+        <Background Type="CT_RAW" Source="FF2A1C23" />
+      </Color>
+      <Color Name="Find Match Highlight">
+        <Background Type="CT_RAW" Source="FF702D45" />
+      </Color>
+      <Color Name="Collapsible Region">
+        <Foreground Type="CT_RAW" Source="FF826573" />
+      </Color>
+    </Category>
+
+    <!-- Syntax Highlighting (Language Service Items) -->
+    <Category Name="Text Editor Language Service Items" GUID="{E0186530-9115-4014-9B0E-898EF47514A3}">
+      <Color Name="Keyword">
+        <Foreground Type="CT_RAW" Source="FFE5A0B0" />
+      </Color>
+      <Color Name="Keyword - Control">
+        <Foreground Type="CT_RAW" Source="FFC44D76" />
+      </Color>
+      <Color Name="Comment">
+        <Foreground Type="CT_RAW" Source="FF9D858D" />
+      </Color>
+      <Color Name="String">
+        <Foreground Type="CT_RAW" Source="FFE8A87C" />
+      </Color>
+      <Color Name="String - Verbatim">
+        <Foreground Type="CT_RAW" Source="FFE8B47A" />
+      </Color>
+      <Color Name="Number">
+        <Foreground Type="CT_RAW" Source="FFDDAA88" />
+      </Color>
+      <Color Name="Operator">
+        <Foreground Type="CT_RAW" Source="FFD7A6E0" />
+      </Color>
+      <Color Name="Punctuation">
+        <Foreground Type="CT_RAW" Source="FFB09AA3" />
+      </Color>
+      <Color Name="Identifier">
+        <Foreground Type="CT_RAW" Source="FFE4DAE0" />
+      </Color>
+      <Color Name="Local Variable">
+        <Foreground Type="CT_RAW" Source="FFE4DAE0" />
+      </Color>
+      <Color Name="Parameter">
+        <Foreground Type="CT_RAW" Source="FFD9A1B5" />
+      </Color>
+      <Color Name="Class Name">
+        <Foreground Type="CT_RAW" Source="FFF0C2CC" />
+      </Color>
+      <Color Name="Structure Name">
+        <Foreground Type="CT_RAW" Source="FFF0C2CC" />
+      </Color>
+      <Color Name="Interface Name">
+        <Foreground Type="CT_RAW" Source="FFE5C18A" />
+      </Color>
+      <Color Name="Enum Name">
+        <Foreground Type="CT_RAW" Source="FFE5C18A" />
+      </Color>
+      <Color Name="Delegate Name">
+        <Foreground Type="CT_RAW" Source="FFD7A6E0" />
+      </Color>
+      <Color Name="Type Parameter Name">
+        <Foreground Type="CT_RAW" Source="FFE5C18A" />
+      </Color>
+      <Color Name="Method Name">
+        <Foreground Type="CT_RAW" Source="FFC5D6A5" />
+      </Color>
+      <Color Name="Extension Method Name">
+        <Foreground Type="CT_RAW" Source="FFC5D6A5" />
+      </Color>
+      <Color Name="Property Name">
+        <Foreground Type="CT_RAW" Source="FFF3C5D4" />
+      </Color>
+      <Color Name="Field Name">
+        <Foreground Type="CT_RAW" Source="FFF3C5D4" />
+      </Color>
+      <Color Name="Preprocessor Keyword">
+        <Foreground Type="CT_RAW" Source="FFC44D76" />
+      </Color>
+      <Color Name="XML Doc Comment">
+        <Foreground Type="CT_RAW" Source="FF826573" />
+      </Color>
+      <Color Name="XML Doc Tag">
+        <Foreground Type="CT_RAW" Source="FFC44D76" />
+      </Color>
+      <Color Name="HTML Element Name">
+        <Foreground Type="CT_RAW" Source="FFE5A0B0" />
+      </Color>
+      <Color Name="HTML Attribute">
+        <Foreground Type="CT_RAW" Source="FFF3C5D4" />
+      </Color>
+      <Color Name="HTML Attribute Value">
+        <Foreground Type="CT_RAW" Source="FFE8A87C" />
+      </Color>
+      <Color Name="JSON Property Name">
+        <Foreground Type="CT_RAW" Source="FFE5A0B0" />
+      </Color>
+      <Color Name="JSON String">
+        <Foreground Type="CT_RAW" Source="FFE8A87C" />
+      </Color>
+    </Category>
+  </Theme>
+</Themes>

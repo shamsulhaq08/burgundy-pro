@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2D121F" />
+      <stop offset="50%" stop-color="#1A0D15" />
+      <stop offset="100%" stop-color="#12080D" />
+    </linearGradient>
+
+    <radialGradient id="wineGlow" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#8A2D4F" stop-opacity="0.45" />
+      <stop offset="70%" stop-color="#8A2D4F" stop-opacity="0.0" />
+    </radialGradient>
+
+    <linearGradient id="roseGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCE4EC" />
+      <stop offset="35%" stop-color="#F5A3B7" />
+      <stop offset="70%" stop-color="#E8B47A" />
+      <stop offset="100%" stop-color="#D45D86" />
+    </linearGradient>
+
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D45D86" />
+      <stop offset="50%" stop-color="#702D45" />
+      <stop offset="100%" stop-color="#3D1826" />
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.6" />
+    </filter>
+  </defs>
+
+  <!-- Rounded Squircle Base -->
+  <rect x="4" y="4" width="120" height="120" rx="28" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="2" />
+  <rect x="4" y="4" width="120" height="120" rx="28" fill="url(#wineGlow)" />
+
+  <!-- Inner Subtle Border -->
+  <rect x="8" y="8" width="112" height="112" rx="24" fill="none" stroke="#F587A7" stroke-opacity="0.15" stroke-width="1" />
+
+  <!-- Code Monogram Graphic (Burgundy & Rose-Gold) -->
+  <g filter="url(#shadow)">
+    <!-- Left Angle Bracket < -->
+    <path d="M 41 44 L 27 64 L 41 84" fill="none" stroke="url(#roseGold)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <!-- Right Angle Bracket > -->
+    <path d="M 87 44 L 101 64 L 87 84" fill="none" stroke="url(#roseGold)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Central S-Slash / Dev Glyph -->
+    <path d="M 71 42 L 57 86" fill="none" stroke="#E58BA2" stroke-width="4.5" stroke-linecap="round" />
+
+    <!-- Central Diamond Core Gem -->
+    <polygon points="64,56 71,64 64,72 57,64" fill="url(#roseGold)" opacity="0.9" filter="url(#glow)" />
+    <circle cx="64" cy="64" r="2.5" fill="#FFFFFF" />
+  </g>
+</svg>

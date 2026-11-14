@@ -1,0 +1,8 @@
+// Burgundy Pro Theme Package Definition for Visual Studio 2019 & 2022
+[$RootKey$\Themes\{4C20DF4E-B5F7-4DC1-BC95-6B586C91A011}]
+@="Burgundy Pro"
+"FallbackId"="{1DED0138-47CE-435E-84EF-9EC1F439B749}"
+
+[$RootKey$\Themes\{4C20DF4E-B5F7-4DC1-BC95-6B586C91A012}]
+@="Burgundy Soft"
+"FallbackId"="{1DED0138-47CE-435E-84EF-9EC1F439B749}"

@@ -1,0 +1,56 @@
+{
+  "name": "burgundy-pro",
+  "displayName": "Burgundy Pro",
+  "description": "A premium, elegant, modern dark Visual Studio Code theme crafted with deep burgundy, rich wine-red accents, and soft rose highlights.",
+  "version": "1.0.2",
+  "publisher": "shamsulhaq08",
+  "author": {
+    "name": "Shams Dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shamsulhaq08/burgundy-pro"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "burgundy",
+    "wine",
+    "dark theme",
+    "rose",
+    "elegant",
+    "aesthetic",
+    "burgundy pro",
+    "burgundy soft",
+    "syntax"
+  ],
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#160D12",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Burgundy Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/burgundy-pro-color-theme.json"
+      },
+      {
+        "label": "Burgundy Soft",
+        "uiTheme": "vs-dark",
+        "path": "./themes/burgundy-soft-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "node scripts/build-themes.js",
+    "verify": "node scripts/verify-theme.js",
+    "package": "npx @vscode/vsce package --no-dependencies --no-rewrite-relative-links"
+  },
+  "license": "MIT"
+}

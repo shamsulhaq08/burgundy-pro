@@ -1,0 +1,51 @@
+:root {
+  --bg-main: #1A1015;
+  --bg-editor: #160D12;
+  --bg-sidebar: #211319;
+  --color-accent: #702D45;
+  --color-highlight: #C44D76;
+  --color-text: #E8DCE1;
+  --color-muted: #B09AA3;
+  --border-subtle: #432532;
+  --radius-card: 8px;
+}
+
+body.theme-burgundy-pro {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-main);
+  color: var(--color-text);
+  font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.6;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: var(--bg-sidebar);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.brand h1 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin: 0;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #702D45 0%, #A33B5F 100%);
+  color: #FFFFFF;
+  border: 1px solid #C44D76;
+  border-radius: var(--radius-card);
+  padding: 0.6rem 1.4rem;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(196, 77, 118, 0.4);
+}

@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "theme": "Burgundy Pro",
+  "version": "1.0.0",
+  "publisher": {
+    "name": "Shams Dev",
+    "id": "shamsulhaq08",
+    "verified": true
+  },
+  "palette": {
+    "primary": "#702D45",
+    "accent": "#C44D76",
+    "backgrounds": {
+      "main": "#1A1015",
+      "editor": "#160D12",
+      "sidebar": "#211319"
+    },
+    "syntax": {
+      "keywords": "#E5A0B0",
+      "functions": "#E8B47A",
+      "strings": "#C5D6A5",
+      "numbers": "#D7A6E0"
+    }
+  },
+  "enabledFeatures": [
+    "semanticHighlighting",
+    "bracketPairColorization",
+    "inlayHints",
+    "gitDecorations"
+  ]
+}
