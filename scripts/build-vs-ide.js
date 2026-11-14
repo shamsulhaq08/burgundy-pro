@@ -316,13 +316,13 @@ fs.writeFileSync(path.join(outDir, '[Content_Types].xml'), contentTypesXml, 'utf
 const vsixManifest = `<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="BurgundyProTheme.shamsulhaq08" Version="1.0.0" Language="en-US" Publisher="shamsulhaq08" />
+    <Identity Id="BurgundyProTheme.shamsulhaq08" Version="1.0.1" Language="en-US" Publisher="shamsulhaq08" />
     <DisplayName>Burgundy Pro</DisplayName>
     <Description xml:space="preserve">A premium, modern dark Burgundy theme for Visual Studio 2022 and Visual Studio 2019. Crafted with deep burgundy identity, wine-red accents, and soft rose syntax highlighting.</Description>
     <MoreInfo>https://github.com/shamsulhaq08/burgundy-pro</MoreInfo>
     <License>LICENSE.txt</License>
-    <Icon>images\\icon.png</Icon>
-    <PreviewImage>images\\preview-burgundy-pro.png</PreviewImage>
+    <Icon>images/icon.png</Icon>
+    <PreviewImage>images/preview-burgundy-pro.png</PreviewImage>
     <Tags>theme, dark theme, burgundy, visual studio 2022, visual studio 2019, color theme</Tags>
   </Metadata>
   <Installation>
@@ -343,9 +343,12 @@ const vsixManifest = `<?xml version="1.0" encoding="utf-8"?>
     <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[16.0, 18.0)" DisplayName="Visual Studio core editor" />
   </Prerequisites>
   <Assets>
-    <Asset Type="Microsoft.VisualStudio.Theme" Path="Themes\\BurgundyPro.vstheme" />
-    <Asset Type="Microsoft.VisualStudio.Theme" Path="Themes\\BurgundySoft.vstheme" />
+    <Asset Type="Microsoft.VisualStudio.Theme" Path="Themes/BurgundyPro.vstheme" />
+    <Asset Type="Microsoft.VisualStudio.Theme" Path="Themes/BurgundySoft.vstheme" />
     <Asset Type="Microsoft.VisualStudio.VsPackage" Path="BurgundyPro.pkgdef" />
+    <Asset Type="Microsoft.VisualStudio.Services.Icons.Default" Path="images/icon.png" />
+    <Asset Type="Microsoft.VisualStudio.Services.Content.Details" Path="README.md" />
+    <Asset Type="Microsoft.VisualStudio.Services.Content.License" Path="LICENSE.txt" />
   </Assets>
 </PackageManifest>
 `;

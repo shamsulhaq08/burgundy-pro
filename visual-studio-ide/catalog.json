@@ -1,30 +1,30 @@
 {
   "manifestVersion": "1.1",
   "info": {
-    "id": "BurgundyProTheme.shamsulhaq08,version=1.0.0",
+    "id": "BurgundyProTheme.shamsulhaq08,version=1.0.1",
     "manifestType": "Extension"
   },
   "packages": [
     {
       "id": "Component.BurgundyProTheme.shamsulhaq08",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "type": "Component",
       "extension": true,
       "dependencies": {
-        "BurgundyProTheme.shamsulhaq08": "1.0.0",
-        "Microsoft.VisualStudio.Component.CoreEditor": "[17.0,18.0)"
+        "BurgundyProTheme.shamsulhaq08": "1.0.1",
+        "Microsoft.VisualStudio.Component.CoreEditor": "[16.0,18.0)"
       },
       "localizedResources": [
         {
           "language": "en-US",
           "title": "Burgundy Pro",
-          "description": "A premium, modern dark Burgundy theme for Visual Studio 2022. Crafted with deep burgundy identity, wine-red accents, and soft rose syntax highlighting."
+          "description": "A premium, modern dark Burgundy theme for Visual Studio 2022 and Visual Studio 2019. Crafted with deep burgundy identity, wine-red accents, and soft rose syntax highlighting."
         }
       ]
     },
     {
       "id": "BurgundyProTheme.shamsulhaq08",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "type": "Vsix",
       "payloads": [
         {
