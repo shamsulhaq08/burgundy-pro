@@ -322,7 +322,6 @@ const vsixManifest = `<?xml version="1.0" encoding="utf-8"?>
     <MoreInfo>https://github.com/shamsulhaq08/burgundy-pro</MoreInfo>
     <License>LICENSE.txt</License>
     <Icon>images/icon.png</Icon>
-    <PreviewImage>images/preview-burgundy-pro.png</PreviewImage>
     <Tags>theme, dark theme, burgundy, visual studio 2022, visual studio 2019, color theme</Tags>
   </Metadata>
   <Installation>
