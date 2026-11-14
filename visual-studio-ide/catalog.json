@@ -1,17 +1,17 @@
 {
   "manifestVersion": "1.1",
   "info": {
-    "id": "BurgundyProTheme.shamsulhaq08,version=1.0.1",
+    "id": "BurgundyProTheme.shamsulhaq08,version=1.0.2",
     "manifestType": "Extension"
   },
   "packages": [
     {
       "id": "Component.BurgundyProTheme.shamsulhaq08",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "type": "Component",
       "extension": true,
       "dependencies": {
-        "BurgundyProTheme.shamsulhaq08": "1.0.1",
+        "BurgundyProTheme.shamsulhaq08": "1.0.2",
         "Microsoft.VisualStudio.Component.CoreEditor": "[16.0,18.0)"
       },
       "localizedResources": [
@@ -24,7 +24,7 @@
     },
     {
       "id": "BurgundyProTheme.shamsulhaq08",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "type": "Vsix",
       "payloads": [
         {

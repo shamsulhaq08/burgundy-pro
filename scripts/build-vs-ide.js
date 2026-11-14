@@ -306,6 +306,7 @@ const contentTypesXml = `<?xml version="1.0" encoding="utf-8"?>
   <Default Extension="vstheme" ContentType="text/xml" />
   <Default Extension="png" ContentType="image/png" />
   <Default Extension="pkgdef" ContentType="text/plain" />
+  <Default Extension="json" ContentType="application/json" />
   <Default Extension="txt" ContentType="text/plain" />
   <Default Extension="md" ContentType="text/plain" />
 </Types>
@@ -316,7 +317,7 @@ fs.writeFileSync(path.join(outDir, '[Content_Types].xml'), contentTypesXml, 'utf
 const vsixManifest = `<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="BurgundyProTheme.shamsulhaq08" Version="1.0.1" Language="en-US" Publisher="shamsulhaq08" />
+    <Identity Id="BurgundyProTheme.shamsulhaq08" Version="1.0.2" Language="en-US" Publisher="shamsulhaq08" />
     <DisplayName>Burgundy Pro</DisplayName>
     <Description xml:space="preserve">A premium, modern dark Burgundy theme for Visual Studio 2022 and Visual Studio 2019. Crafted with deep burgundy identity, wine-red accents, and soft rose syntax highlighting.</Description>
     <MoreInfo>https://github.com/shamsulhaq08/burgundy-pro</MoreInfo>

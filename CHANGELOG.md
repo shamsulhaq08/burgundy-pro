@@ -2,6 +2,11 @@
 
 All notable changes to the **Burgundy Pro** extension will be documented in this file.
 
+## [1.0.3] - 2026-11-14
+
+### Fixed
+- Fixed icon asset registration and forward-slash paths in manifest for seamless Visual Studio Marketplace rendering.
+
 ## [1.0.2] - 2026-11-14
 
 ### Changed
